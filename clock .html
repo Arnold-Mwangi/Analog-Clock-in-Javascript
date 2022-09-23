@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS + CSS Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+  <div class="container">
+    <div class="clock">
+      
+      <div class="time3">3</div>
+      <div class="time6">6</div>
+      <div class="time9">9</div>
+      <div class="time12">12</div>
+      
+      <div class="clock-face">
+        <p class= "hand3" id="realTime">Time</p>
+        <div class="hand hour-hand"></div>
+        <div  class="hand1 min-hand"></div>
+        <div   class="hand2 second-hand"></div>
+
+      </div>
+    </div> 
+
+    <div class="alarm">
+     
+        <div class="alarm-header"><strong>Set alarm</strong></div>
+        <div class="alarm-label"><label for="alarm">select time</label></div>
+        <div class="time-select"><input type="time" name="alarm" id="alarm"></div>
+        <div class="submit"><input type="submit" value="setAlarm"></div>
+ 
+   
+    </div>
+  </div>
+<script src="clock.js"></script>
+</body>
+</html>

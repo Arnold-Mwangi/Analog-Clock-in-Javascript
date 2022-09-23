@@ -1,0 +1,161 @@
+html{
+  background:linear-gradient(to bottom, Black, rgb(2, 2, 134));
+background-size: cover;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+body{
+  margin:0;
+
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background:linear-gradient(to bottom, Black, rgb(2, 2, 134));
+
+
+}
+.container > div{
+  background-color: transparent;
+  width: 300px;
+  height:300px;
+  margin: 10px;
+  justify-content: space-between;
+  
+ 
+}
+.clock{
+  width: 300px;
+  height:300px;
+  padding:10px;
+  background-image: url(images/baby1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  margin:50px;
+  border:5px solid rgb(255, 0, 234);
+  border-radius: 50%;
+  box-shadow:         0 0 0 4px rgba(0,0,0,0.1),
+  inset 0 0 0 3px #EFEFEF,
+  inset 0 0 10px black,
+  0 0 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+.time3{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  background-color:rgb(255, 0, 234);
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+.time6{
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  right: 45%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  background-color:rgb(255, 0, 234);
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+.time9{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  background-color:rgb(255, 0, 234);
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+.time12{
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  right: 45%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  background-color:rgb(255, 0, 234);
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+.clock-face{
+  position:relative;
+  width:100%;
+  height:100%;
+  transform: translateY(-3px);
+}
+
+.hand{
+  width:50%;
+  height:5px;
+  background-color: rgb(0, 255, 34);
+  position:absolute;
+  transform-origin: 100%;
+  transform:rotate(90deg);
+  top:50%;
+}
+.hand1 {
+  width:50%;
+  height:5px;
+  background-color: orange;
+  position:absolute;
+  transform-origin: 100%;
+  transform:rotate(90deg);
+  top:50%;
+}
+.hand2 {
+  width:50%;
+  height:5px;
+  background-color: rgb(0, 17, 255);
+  position:absolute;
+  transform-origin: 100%;
+  transform:rotate(90deg);
+ top:50%;
+}
+
+.hand3{
+ width:50%;
+ background: transparent;
+ position:absolute;
+ transform-origin: 100%;
+ top: 10px;
+ left:22.5%;
+ margin:auto;
+ text-align: center;
+ font-size: larger;
+ font-weight: bolder;
+ opacity: 1;
+
+}
+.alarm{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EFEFEF;
+  background:url(images/love.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  color: rgb(0, 78, 180);
+  font-size: x-large;
+  font-weight: bolder;
+
+}
+.alarm>div{
+  background:transparent;
+  margin:10px;
+  width:100%;
+  background-color: rgba(2, 11, 22, 0.5);
+}
